@@ -19,7 +19,7 @@ dic3 = {5: 50, 6: 60}
 ```
   Output : ```{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}```
 
-@[Merge dictionaries]({"stubs": ["dictionaries/ex1.py"], "command": "python3 dictionaries/test_ex1.py"})# Exercise 1
+@[Merge dictionaries]({"stubs": ["dictionaries/ex1.py"], "command": "python3 dictionaries/test_ex1.py"})
  
 # Exercise 2
 
