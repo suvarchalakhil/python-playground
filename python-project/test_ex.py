@@ -1,4 +1,4 @@
-from ex1 import Solution
+from ex import Solution
 
 
 def send_msg(channel, msg):
