@@ -2,12 +2,14 @@
  
 Write a Python script to concatenate the following dictionaries to create a new one.
 
+
 Example input 1:
 ```python
 dic1 = {1: 10, 2: 20}
 dic2 = {3: 30, 4: 40}
 ```
   Expected Result : ```{1: 10, 2: 20, 3: 30, 4: 40}```
+
 
 Example input 2:
 ```python
