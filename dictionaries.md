@@ -21,7 +21,8 @@ dic3 = {5: 50, 6: 60}
 ```
   Output : ```{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}```
 
-@[Write a Python script to concatenate the following dictionaries to create a new one.]({"stubs": ["ex.py"], "command": "python3 test_ex.py"})
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["ex.py"], "command": "python3 test_ex.py"})
+
 
 # Exercise 1
  
