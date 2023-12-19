@@ -1,41 +1,36 @@
-# Loops
+# Exercise 1
+ 
+  Write a Python script to concatenate the following dictionaries to create a new one.
+    
+    Sample Data: 
 
-Loops are very useful when needing to do the same action 
-multiple time (iterations). For loops are usually better when 
-the amount of iterations is known and while loops are usually
-better when the number of iterations is not known. 
-   
-However, you can pretty much do any process (algorithm) with 
-either style of loop. You can also use recursion.
+    dic1 = {1: 10, 2: 20}
+    
+    dic2 = {3: 30, 4: 40}
+    
+    dic3 = {5: 50, 6: 60}
 
-Iterate through every char in a string
+  Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 
-@[Try changing the string!]({"stubs": ["py_files/loops.py"], "command": "python3 py_files/loops.py"})
+# Exercise 2
+ 
+  Write a Python program to check whether a given key already exists in a dictionary.
+    
+    Sample Data: 
 
-Indexes are used to keep track of what we're working with for
-each iteration. With while loops, you have to manually change
-the index. Be careful, infinite loops are created when a 
-terminating condition is never met. IE the index never changes,
-a count never changes, or whatever condition we decide for the 
-loop. 
-     
-@[Try adjusting the index!]({"stubs": ["py_files/loops_2.py"], "command": "python3 py_files/loops.py"})
+    key = 5
 
-In other languages, there are do while loops. However,
-Python doesn't use them without some extra effort. 
+    d = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 
-You can also use the range() function to set a start, stop, and step for your for loops. This is similar to the start, stop, and step of string slicing.
+  Expected Output : True
 
-Start is the initial value that the loop range will start at.
+# Exercise 3
+ 
+  Write a Python script to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x).
+ 
+    
+    Sample Data: 
 
-Stop is the end limit that the loop value will reach in the range.
-
-Step is the amount that the loop will count by. 
-
-@[Try changing n!]({"stubs": ["py_files/loops_3.py"], "command": "python3 py_files/loops_3.py"})
-
-Here is a nifty way to demonstrate Multiplication and Division as loops of Addition and Subtraction!
-
-@[Try me!]({"stubs": ["py_files/loops_4.py"], "command": "python3 py_files/loops_4.py"})
-
-   
+    n = 5
+    
+  Expected Output : {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
