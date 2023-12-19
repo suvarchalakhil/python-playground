@@ -1,33 +1,33 @@
 title: Python from Zero to Hero
 plan:
-- title: Intro
-  statement: intro.md
-- title: Hello World
-  statement: hello_world.md
-- title: Comments
-  statement: comments.md
-- title: Primitive Variables
-  statement: primitive_variables.md
-- title: Functions
-  statement: functions.md
-- title: Control Flow
-  statement: control_flow.md
-- title: Loops
-  statement: loops.md
-- title: Recursion
-  statement: recursion.md
-- title: Examples of Loops
-  statement: examples.md
-- title: Data Structures
-  statement: data_structures.md
-- title: Example Algorithms
-  statement: example_algorithms.md
-- title: Debugging
-  statement: debugging.md
-- title: Sorting Algorithms
-  statement: sorting.md
+#- title: Intro
+#  statement: markdowns/intro.md
+#- title: Hello World
+#  statement: markdowns/hello_world.md
+#- title: Comments
+#  statement: markdowns/comments.md
+#- title: Primitive Variables
+#  statement: markdowns/primitive_variables.md
+#- title: Functions
+#  statement: markdowns/functions.md
+#- title: Control Flow
+#  statement: markdowns/control_flow.md
+#- title: Loops
+#  statement: markdowns/loops.md
+#- title: Recursion
+#  statement: markdowns/recursion.md
+#- title: Examples of Loops
+#  statement: markdowns/examples.md
+#- title: Data Structures
+#  statement: markdowns/data_structures.md
+#- title: Example Algorithms
+#  statement: markdowns/example_algorithms.md
+#- title: Debugging
+#  statement: markdowns/debugging.md
+#- title: Sorting Algorithms
+#  statement: markdowns/sorting.md
 - title: Dictionaries
-  statement: dictionaries.md 
+  statement: markdowns/dictionaries.md
  
   
 projects:

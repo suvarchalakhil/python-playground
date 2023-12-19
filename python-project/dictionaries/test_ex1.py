@@ -1,4 +1,4 @@
-from ex import Solution
+from ex1 import Solution
 
 
 def send_msg(channel, msg):
@@ -20,14 +20,15 @@ dic3 = {5: 50, 6: 60}
 
 def test_merge_dictionaries():
     try:
+        f_name = 'merge_dictionaries'
         args1 = [dic1, dic2]
         args2 = [dic1, dic2, dic3]
         res1 = {1: 10, 2: 20, 3: 30, 4: 40}
         res2 = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
         case1 = Solution().merge_dictionaries(args1)
-        assert case1 == res1, f"Running merge_dictionaries({args1})... Expected {res1}, got {case1}"
+        assert case1 == res1, f"Running {f_name}({args1})... Expected {res1}, got {case1}"
         case2 = Solution().merge_dictionaries(args2)
-        assert case2 == res2, f"Running merge_dictionaries({args2})... Expected {res2}, got {case2}"
+        assert case2 == res2, f"Running {f_name}({args2})... Expected {res2}, got {case2}"
         success()
     except AssertionError as e:
         fail()
