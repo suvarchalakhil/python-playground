@@ -1,27 +1,52 @@
+# Hands-on Demo
+ 
+Write a Python script to concatenate the following dictionaries to create a new one.
+
+Example 1:
+ 
+Input: 
+```python
+dic1 = {1: 10, 2: 20}
+dic2 = {3: 30, 4: 40}
+```
+  Output : ```{1: 10, 2: 20, 3: 30, 4: 40}```
+
+Example 2:
+ 
+Input: 
+```python
+dic1 = {1: 10, 2: 20}
+dic2 = {3: 30, 4: 40}
+dic3 = {5: 50, 6: 60}
+```
+  Output : ```{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}```
+
+@[Write a Python script to concatenate the following dictionaries to create a new one.]({"stubs": ["ex1.py"], "command": "python3 test_ex1.py"})
+
 # Exercise 1
  
   Write a Python script to concatenate the following dictionaries to create a new one.
     
+
     Sample Data: 
-
-    dic1 = {1: 10, 2: 20}
-    
-    dic2 = {3: 30, 4: 40}
-    
-    dic3 = {5: 50, 6: 60}
-
-  Expected Result : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+```python
+dic1 = {1: 10, 2: 20}
+dic2 = {3: 30, 4: 40}
+dic3 = {5: 50, 6: 60}
+dic4 = {}
+print(dic4)
+```
+  Expected Result : ```{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}```
 
 # Exercise 2
  
   Write a Python program to check whether a given key already exists in a dictionary.
-    
     Sample Data: 
 
     key = 5
 
     d = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
-
+    ```
   Expected Output : True
 
 # Exercise 3
