@@ -1,2 +1,2 @@
-from ex import *
-from test_ex import *
+from .ex import *
+from .test_ex import *
