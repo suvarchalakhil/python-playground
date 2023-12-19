@@ -20,7 +20,7 @@
 
 # END OF BUG BOUNTY ------------------------------------------------------------------------------
 
-@[Try it out!]({"stubs": ["py_files/rot13.py"], "command": "py_files/python3 rot13.py"})
+@[Try it out!]({"stubs": ["rot13.py"], "command": "python3 rot13.py"})
 
   The concept of a circular array is demonstrated with these lines:
   
@@ -39,16 +39,16 @@
    13 is the most common value, as it allows for Symmetric Encryption. However, it's fairly simple to change this algorithm to accept any value for the rotation. To
    account for larger values, we need to change the index modification to the modulo style. 
    
-@[Try it out!]({"stubs": ["py_files/rotn.py"], "command": "python3 py_files/rotn.py"})
+@[Try it out!]({"stubs": ["rotn.py"], "command": "python3 rotn.py"})
    
 # Generate Character Messages via a Message Dictionary && Calculating a Message Code
 
     Say you want to cut down on the time taken with repetitive messages you want your game characters to say to the player. You could do this by using a dictionary to return a message based on an input value.
 
-@[Try it out!]({"stubs": ["py_files/msg_dict.py"], "command": "python3 py_files/msg_dict.py"})
+@[Try it out!]({"stubs": ["msg_dict.py"], "command": "python3 msg_dict.py"})
 
     You can also add the complexity of Holiday Based messages, Region Based messages, and many more!
 
-@[Try it out!]({"stubs": ["py_files/msg_sel.py"], "command": "python3 py_files/msg_sel.py"})
+@[Try it out!]({"stubs": ["msg_sel.py"], "command": "python3 msg_sel.py"})
 
 

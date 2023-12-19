@@ -10,7 +10,7 @@ either style of loop. You can also use recursion.
 
 Iterate through every char in a string
 
-@[Try changing the string!]({"stubs": ["py_files/loops.py"], "command": "python3 py_files/loops.py"})
+@[Try changing the string!]({"stubs": ["loops.py"], "command": "python3 loops.py"})
 
 Indexes are used to keep track of what we're working with for
 each iteration. With while loops, you have to manually change
@@ -19,7 +19,7 @@ terminating condition is never met. IE the index never changes,
 a count never changes, or whatever condition we decide for the 
 loop. 
      
-@[Try adjusting the index!]({"stubs": ["py_files/loops_2.py"], "command": "python3 py_files/loops.py"})
+@[Try adjusting the index!]({"stubs": ["loops_2.py"], "command": "python3 loops.py"})
 
 In other languages, there are do while loops. However,
 Python doesn't use them without some extra effort. 
@@ -32,10 +32,10 @@ Stop is the end limit that the loop value will reach in the range.
 
 Step is the amount that the loop will count by. 
 
-@[Try changing n!]({"stubs": ["py_files/loops_3.py"], "command": "python3 py_files/loops_3.py"})
+@[Try changing n!]({"stubs": ["loops_3.py"], "command": "python3 loops_3.py"})
 
 Here is a nifty way to demonstrate Multiplication and Division as loops of Addition and Subtraction!
 
-@[Try me!]({"stubs": ["py_files/loops_4.py"], "command": "python3 py_files/loops_4.py"})
+@[Try me!]({"stubs": ["loops_4.py"], "command": "python3 loops_4.py"})
 
    
