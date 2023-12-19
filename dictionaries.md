@@ -21,6 +21,8 @@ dic3 = {5: 50, 6: 60}
 ```
   Output : ```{1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}```
 
+# Hands-on Demo
+
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["ex.py"], "command": "python3 test_ex.py"})
 
 
